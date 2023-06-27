@@ -5,9 +5,11 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
+    color: var(--slate);
+    background-color: ffffff;
 }
 .list {
     list-style-type: none;
@@ -19,7 +21,7 @@ body {
 .logo {
     color: var(--iris);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
