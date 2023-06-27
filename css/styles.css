@@ -1,0 +1,43 @@
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --slate: #434455;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+/*-----------HEADER-----------*/
+.logo {
+    color: var(--iris);
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo span {
+    color: var(--navyblue);
+}
+
+.navigation-list-item {
+    color: var(--navyblue);
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address-list-item {
+    color: var(--slate);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
