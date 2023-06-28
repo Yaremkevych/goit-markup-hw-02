@@ -52,7 +52,7 @@ body {
 .navigation-list-item:hover,
 .address-list-item:focus,
 .navigation-list-item:focus {
-    color: var(--iris);
+    color: var(--ocean);
 }
 /*-----------SECTION-1-----------*/
 .solutions {
