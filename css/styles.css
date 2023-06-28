@@ -59,7 +59,7 @@ body {
     background-color: var(--navyblue);
 }
 .solutions-title {
-    color: var(--white, #fff);
+    color: var(--white);
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -67,7 +67,7 @@ body {
     letter-spacing: 0.02em;
 }
 .solutions-btn {
-    color: var(--white, #fff);
+    color: var(--white);
     background: var(--iris);
     cursor: pointer;
     font-size: 16px;
@@ -78,36 +78,25 @@ body {
 }
 .solutions-btn:hover,
 .solutions-btn:focus {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
 /*-----------SECTION-2-----------*/
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 .advantages-item-title {
-    color: var(--navyblue, #2e2f42);
+    color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .advantages-item-text {
-    color: var(--slate, #434455);
+    color: var(--slate);
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 /*-----------SECTION-3-----------*/
 .work-title {
-    color: var(--navyblue, #2e2f42);
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -123,7 +112,7 @@ body {
     background-color: var(--white);
 }
 .team-title {
-    color: var(--navyblue, #2e2f42);
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -132,7 +121,7 @@ body {
     text-transform: capitalize;
 }
 .team-member-name {
-    color: var(--navyblue, #2e2f42);
+    color: var(--navyblue);
     text-align: center;
     font-size: 20px;
     font-weight: 500;
@@ -141,7 +130,7 @@ body {
 }
 
 .team-member-profession {
-    color: var(--slate, #434455);
+    color: var(--slate);
     text-align: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
